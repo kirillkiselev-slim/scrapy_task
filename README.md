@@ -14,7 +14,7 @@ and save_id as key from "test-rg8.ddns.net":
 ]
 ```
 
-The result is saved in "results.json" file and entire script is also timed (time is saved to time.txt).
+The result is saved in "results.json" file and entire script is also timed (time is saved to time.txt), all under "spiders" directory.
 
 
 ## Set up
@@ -55,6 +55,15 @@ cd scrapy_task
 
 ```bash
 pip install -r requirements.txt
+```
+## Add .env file with your own information below
+
+```text
+PROXY_URL=<your_proxy_url>
+PROXY_USERNAME=<your_username>
+PROXY_PASSWORD=<your_password>
+USER_AGENT=<include_user_agent_here>
+TOKEN=<your_token_for_second_website>
 ```
 
 ## Run the scraping script
