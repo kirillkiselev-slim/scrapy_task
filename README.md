@@ -59,4 +59,3 @@ scrapy crawl proxies -o results.json
 ### Author
 
 [Кирилл Киселев](https://github.com/kirillkiselev-slim)
->>>>>>> bc0e541 (add README.md file)
